@@ -76,38 +76,116 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: 400;
+  margin: 0 auto;
 }
 
 /*--------------------*/
 
 
 body {
-  font-size: 'Bad Script', cursive, sans-serif;
+  font-family: 'Bad Script', cursive, sans-serif;
+  background: rgb(220, 241, 122);
+  background: linear-gradient(180deg, rgb(248, 169, 169) 2%, rgb(238, 253, 177) 100%, rgb(155, 175, 241) 100%);
 }
+
+
 .todoshka {
   width: 50%;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid black;
+  
 }
+
+.main-heading {
+  font-size: 60px;
+  color: white;
+}
+
+.input { 
+  background-color: transparent;
+  
+}
+
+.input::placeholder {
+  font-size: 20px;
+}
+
+.add-task {
+ background: transparent;
+ border-top: 2px solid grey;
+ width: 20px;
+ transform: rotate(90deg);
+ position: relative;
+ margin-left: auto;
+}
+
+.add-task::after {
+  content: '';
+  border-top: 2px solid grey;
+  width: 20px;
+  transform: rotate(-90deg);
+  right: auto;
+  background: transparent;
+  position: absolute;
+  top: -2px;
+  
+}
+
 .todo-header {
   width: 100%;
   padding: 30px 30px;
-  background-color: aqua;
+
 }
+
 .todo-input {
   width: 100%;
   padding: 25px 25px;
-  background-color: bisque;
+  background-color: rgb(241, 241, 241);
+  display: flex;
 }
 .todo-list {
   width: 100%;
-  padding: 400px;
-  background-color: black;
+  background-color: rgb(241, 241, 241);
+  margin: 10px 0;
+  text-align: left;
 }
-.todo-footer {
+.button-list {
   width: 100%;
-  background-color: blueviolet;
-  padding: 29px;
+  display: flex;
+  font-size: 17px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+
+}
+.save-button {
+  width: 30%;
+  border: 1px solid blue; 
+  padding: 17px 17px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.save-button:hover {
+  background-color: lightgreen;
+}
+.clear-list-button {
+  width: 30%;
+  border: 1px solid blue; 
+  padding: 17px 17px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.clear-list-button:hover {
+  background-color: lightcoral;
+}
+.delete-completed-tasks-button {
+  width: 30%;
+  border: 1px solid blue; 
+  padding: 17px 17px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.delete-completed-tasks-button:hover {
+  background-color: lightblue;
 }
