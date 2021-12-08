@@ -76,11 +76,107 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: 400;
+  margin: 0 auto;
 }
 
 /*--------------------*/
 
 
 body {
-  font-size: 'Bad Script', cursive, sans-serif;
+  font-family: 'Bad Script', cursive, sans-serif;
+  background: rgb(65,187,201);
+  background: linear-gradient(180deg, rgba(65,187,201,1) 2%, rgba(161,121,255,1) 100%, rgba(42,66,148,1) 100%);
+}
+
+
+.todoshka {
+  width: 50%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.main-heading {
+  font-size: 60px;
+  color: white;
+}
+
+.input { 
+  background-color: transparent;
+  
+}
+
+.input::placeholder {
+  font-size: 20px;
+}
+
+.add-task {
+ background: transparent;
+ border-top: 2px solid grey;
+ width: 20px;
+ transform: rotate(90deg);
+ position: relative;
+ margin-left: auto;
+}
+
+.add-task::after {
+  content: '';
+  border-top: 2px solid grey;
+  width: 20px;
+  transform: rotate(-90deg);
+  right: auto;
+  background: transparent;
+  position: absolute;
+  top: -2px;
+  
+}
+
+.todo-header {
+  width: 100%;
+  padding: 30px 30px;
+
+}
+
+.todo-input {
+  width: 100%;
+  padding: 25px 25px;
+  background-color: rgb(241, 241, 241);
+  display: flex;
+}
+.todo-list {
+  width: 100%;
+  background-color: rgb(241, 241, 241);
+  margin: 10px 0;
+  text-align: left;
+}
+.button-list {
+  width: 100%;
+  display: flex;
+  font-size: 17px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+
+}
+.save-button {
+  width: 30%;
+  border: 1px solid blue; 
+  padding: 17px 17px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.clear-list-button {
+  width: 30%;
+  border: 1px solid blue; 
+  padding: 17px 17px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.delete-completed-tasks-button {
+  width: 30%;
+  border: 1px solid blue; 
+  padding: 17px 17px;
+  margin-left: auto;
+  margin-right: auto;
 }
