@@ -181,11 +181,22 @@ body {
 }
 .delete-completed-tasks-button {
   width: 30%;
-  border: 1px solid blue; 
+  border: 1px solid royalblue; 
   padding: 17px 17px;
   margin-left: auto;
   margin-right: auto;
+  -webkit-transition: top 1s ease-out 0.5s;
+  -moz-transition: top 1s ease-out 0.5s;
+  -o-transition: top 1s ease-out 0.5s;
+  transition: top 1s ease-out 0.5s;
 }
 .delete-completed-tasks-button:hover {
   background-color: lightblue;
+}
+.task {
+  height: 28px;
+  padding-top: 7px;
+  font-size: 17px;
+  padding-left: 4px;
+  border: 0.5px dotted royalblue;
 }

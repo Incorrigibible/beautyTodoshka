@@ -6,24 +6,40 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Beautiful Todoshka</title>
-	<link rel="stylesheet" href="/fonts/fonts.css">
-	<link rel="stylesheet" href="/css/normalize.css">
-	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 	<div class="todoshka">
 		<div class="todo-header">
-
+			<h1 class="main-heading">MY TO-DO LIST</h1>
+			<span class="pencil"></span>
 		</div>
 		<div class="todo-input">
-
+			<input class="input" type="text" placeholder="Add new task">
+			<span class="add-task"></span>
 		</div>
 		<div class="todo-list">
-
+			<ul>
+				<li class="task"><span>Сказать мяу как котик</span></li>
+				<li class="task"><span>Сказать мяу как котик</span></li>
+				<li class="task"><span>Сказать мяу как котик</span></li>
+				<li class="task"><span>Сказать мяу как котик</span></li>
+			</ul>
 		</div>
-		<div class="footer">
 
+		<div class="button-list">
+			<button class="save-button" value="">
+				save list
+			</button>
+			<button class="clear-list-button" value="">
+				clear list
+			</button>
+			<button class="delete-completed-tasks-button" value="">
+				delete completed
+			</button>
 		</div>
 	</div>
 	<script src="/js/script.js"></script>
