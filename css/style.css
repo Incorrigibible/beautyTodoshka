@@ -120,6 +120,7 @@ body {
  transform: rotate(90deg);
  position: relative;
  margin-left: auto;
+ cursor: pointer;
 }
 
 .add-task::after {
@@ -170,10 +171,26 @@ body {
 }
 .save-button:hover {
   background-color: lightgreen;
+  -webkit-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+
+.clear-list-button {
+  width: 30%;
+  border: 1px solid blue; 
+  padding: 17px 17px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .clear-list-button:hover {
   background-color: lightcoral;
+  -webkit-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
 }
 .delete-completed-tasks-button {
   width: 30%;
@@ -181,13 +198,14 @@ body {
   padding: 17px 17px;
   margin-left: auto;
   margin-right: auto;
-  -webkit-transition: top 1s ease-out 0.5s;
-  -moz-transition: top 1s ease-out 0.5s;
-  -o-transition: top 1s ease-out 0.5s;
-  transition: top 1s ease-out 0.5s;
+  
 }
 .delete-completed-tasks-button:hover {
   background-color: lightblue;
+  -webkit-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
 }
 .task {
   height: 28px;
