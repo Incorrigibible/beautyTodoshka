@@ -84,6 +84,7 @@ h6 {
 
 body {
   font-family: 'Bad Script', cursive, sans-serif;
+
   background: rgb(220, 241, 122);
   background: linear-gradient(180deg, rgb(248, 169, 169) 2%, rgb(238, 253, 177) 100%, rgb(155, 175, 241) 100%);
 }
@@ -100,6 +101,7 @@ body {
 .main-heading {
   font-size: 60px;
   color: white;
+
 }
 
 .input { 
@@ -169,13 +171,7 @@ body {
 .save-button:hover {
   background-color: lightgreen;
 }
-.clear-list-button {
-  width: 30%;
-  border: 1px solid blue; 
-  padding: 17px 17px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .clear-list-button:hover {
   background-color: lightcoral;
 }
